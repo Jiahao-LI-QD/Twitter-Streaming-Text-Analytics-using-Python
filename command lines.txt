@@ -1,0 +1,10 @@
+Start python container
+docker start b9271629b053 
+docker exec -it b9271629b053 /bin/bash
+
+Start eecs container
+docker start 0939672a744d 
+docker exec -it 0939672a744d /bin/bash
+
+
+export PYSPARK_PYTHON=python3.5
